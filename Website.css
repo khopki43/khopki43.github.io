@@ -1,0 +1,68 @@
+.header{
+    padding-top: 30px;
+    text-align: center;
+    background-image: url(tumblr_meqcdyItyF1rdq2opo1_500.gif);
+    background-repeat: repeat-x;
+        color: white;}
+        .header h1{font-size: 80px}
+header::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+    font-weight: 200; 
+    color: white;
+}
+nav{
+    float: center;
+    overflow: hidden;
+     
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-right: 50px;
+    padding-top: 10px;
+    position: relative;
+}
+nav a{
+    color: white;
+    font-size: 17px;
+    background-color: red;
+     font-family: monospace;
+   text-align: center;
+    padding:16px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: orange;
+}
+nav a::before{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+}
+.navbar{
+    background-color: gainsboro;
+    width: 100%;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p{
+    text-align: center;
+}

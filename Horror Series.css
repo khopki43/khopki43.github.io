@@ -1,0 +1,41 @@
+ .header{
+    padding-top: 30px;
+    text-align: center;
+    background-color: orange;
+        color: white;}
+        .header h1{font-size: 70px}
+h1{ text-align: center;
+color: red;
+     font-family: monospace;
+     font-size: 25px;
+}
+body{
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    background-color: black;
+}
+#container{
+    width: 400px;
+    margin: auto;
+    border: 2px soild #FFFFFF;
+    padding: 0 20px 20px 20px;
+    border-radius: 10px;
+    text-align: left;
+    min-height: 300px;
+}
+#notices{
+     border: 2px dashed white;
+    border-radius: 4px;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
+th,td{
+    width: 20%;
+    text-align: center;
+}
+td{
+    border-bottom: 2px soild #FFFFFF;
+}
